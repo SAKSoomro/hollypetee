@@ -355,3 +355,144 @@ footer {
 .copyright div p span {
   color: #aaa;
 }
+@media (max-width: 768px) {
+  .header-links ul li a {
+    visibility: hidden;
+  }
+  header {
+    margin-left: 0.5em;
+  }
+
+  .header-logo {
+    margin-right: 3em;
+  }
+  .header-links ul li {
+    margin-top: 1.2em;
+  }
+  .place-ad-btn {
+    visibility: visible !important;
+    padding: 10px;
+  }
+  .sw-links {
+    justify-content: flex-start;
+    margin-left: 2.5em;
+  }
+  .sw-links ul li a {
+    margin-left: 0.01em;
+  }
+  .input-fields {
+    flex-direction: column;
+  }
+  .section-title {
+    margin-left: 2.5em;
+  }
+  .recent-ads {
+    margin-left: 2.5em;
+  }
+  .showcase-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .showcase {
+    display: flex;
+    align-items: center;
+  }
+  .showcase-card {
+    margin-bottom: 1em;
+    max-width: 14rem;
+  }
+  .recent-ads {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-fields {
+    margin-left: 2.5em;
+  }
+  .input-fields input {
+    width: 18rem;
+  }
+  .sub-input-fields input {
+    width: 8rem;
+  }
+  .all-models {
+    visibility: hidden;
+  }
+  .bt-sub-input {
+    margin-top: -4.5em;
+  }
+  .search-btn {
+    width: 20rem;
+    margin-left: 2.2em;
+    margin-top: 0.1em;
+  }
+  .hero {
+    height: 28rem;
+    background: url(/public/assets/hero.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 25.8rem;
+  }
+  .vehicle-tags {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+    margin-bottom: 1em;
+  }
+
+  .search-links {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 1em;
+  }
+  body {
+    max-width: fit-content;
+  }
+  .hod1 {
+    display: none;
+  }
+  .footer-links {
+    display: none;
+  }
+  .footer-content {
+    align-items: center;
+  }
+  .app-download {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+  .app-download img {
+    margin-left: 0.5em;
+  }
+  .brand-banner {
+    align-items: center;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .signup-btn {
+    width: 22.5rem;
+  }
+  .sw-links {
+    width: fit-content;
+  }
+  .input-fields {
+    width: fit-content;
+  }
+  .hero-wrapper {
+    width: fit-content;
+  }
+  .showcase {
+    width: 100%;
+  }
+  footer {
+    width: 100% !important;
+  }
+}
